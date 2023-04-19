@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cas Airways</title>
+    <link rel="stylesheet" href="flightwebsite.css">
+</head>
+<body>
+    <h>Flight Booking Website</h>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Welcome to Cas Airways!!!!</h1>
+        <p>Book your flight with us and enjoy great discounts and our amazing aircrew.</p>
+        <img src="images.jpeg" alt="Inside of an aeroplane" width="400px" height="300px">
+    <form>
+        <label for="from">Leaving From:</label>
+        <select id="from" name="from">
+            <option value="Mombasa">Mombasa</option>
+            <option value="Nairobi">Nairobi</option>
+            <option value="Kisumu">Kisumu</option>
+            <option value="Dar-es-Salaam">Dar-es-Salaam</option>
+            <option value="Juba">Juba</option>
+            <option value="Kampala">Kampala</option>
+            <option value="Khartoum">Khartoum</option>
+        </select>
+        <label for="to">Travelling To:</label>
+        <select id="to" name="to">
+            <option value="Mombasa">Mombasa</option>
+            <option value="Nairobi">Nairobi</option>
+            <option value="Kisumu">Kisumu</option>
+            <option value="Dar-es-Salaam">Dar-es-Salaam</option>
+            <option value="Juba">Juba</option>
+            <option value="Kampala">Kampala</option>
+            <option value="Khartoum">Khartoum</option>
+        </select>
+
+        <label for="date">Departure Date:</label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="time"> Departure Time:</label>
+        <select id="time" name="time">
+            <option value="0800hours">0800hours</option>
+            <option value="1100hours">1100hours</option>
+            <option value="1400hours">1400hours</option>
+            <option value="1700hours">1700hours</option>
+            <option value="2000hours">2000hours</option>
+            <option value="2300hours">2300hours</option>
+            <option value="0200hours">0200hours</option>
+            
+        </select>
+    </form>
+    <form>
+        <label for="passenger-type">Passenger-Type:</label>
+        <select id="passenger-type" name="passenger-type">
+            <option value="adult">Adult</option>
+            <option value="child">Child</option>
+        </select>
+
+        <label for="journey-type">Journey-Type:</label>
+        <select id="journey-type" name="journey-type">
+            <option value="return">Two-Way</option>
+            <option value="one-way">One-Way</option>
+        </select>
+
+        <label for="class">Class:</label>
+        <select id="class" name="class">
+            <option value="first class">First Class</option>
+            <option value="business class">Business Class</option>
+            <option value="economy class">Economy Class</option>
+        </select>
+        <button type="submit">Search</button>
+        </form>
+        <label for="choose flight">Flight Number:</label>
+        <select id="choose flight" name="choose flight">
+            <option value="Flight 1">Flight 1</option>
+            <option value="Flight 2">Flight 2</option>
+            <option value="Flight 3">Flight 3</option>
+        </select>
+    <input type="submit" value="Confirm Booking">
+    <h3>Flight Prices</h3>
+    <table>
+        <tr>
+            <th>Destination</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Nairobi</td>
+            <td>Ksh 8,000</td>
+        </tr>
+        <tr>
+            <td>Mombasa</td>
+            <td>Ksh 10,000</td>
+        </tr>
+        <tr>
+            <td>Dar-es-Salaam</td>
+            <td>Ksh 12,000</td>
+        </tr>
+        <tr>
+            <td>Kampala</td>
+            <td>Ksh 14,000</td>
+        </tr>
+        <tr>
+            <td>Khartoum</td>
+            <td>Ksh 16,000</td>
+        </tr>
+        <tr>
+            <td>Juba</td>
+            <td>Ksh 18,000</td>
+        </tr>
+    </table>
+    <h3>Payment Methods</h3>
+    <ul>
+        <li>
+            <div>
+            <img src="visa1.png" width="10%" height="auto">
+            </div>
+            <a href="https://www.visa.com">Open Visa</a>
+           <div>
+            <img src="paypal.png" width="10%" height="auto">
+           </div>
+           <a href="https://www.paypal.com">Open Paypal</a>
+           <div>
+            <img src="mpesa1.jpeg" width="10%" height="auto">
+           </div>
+           <a href="tel:*150#">Open M-PESA </a>
+        </li>
+    </ul>
+    </main>
+    <footer>
+        <p>&copy;2023 Cas Airways. All rights reserved</p>
+    </footer>
+</body>
+<script src="flightwebsite.js"></script>
+</html>
